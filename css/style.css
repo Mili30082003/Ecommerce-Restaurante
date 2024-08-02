@@ -42,7 +42,7 @@ body{
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+ justify-content: space-around;
 }
 .Logo{
     color: wheat;
@@ -92,4 +92,37 @@ body{
     background-color: #4E4B5076;
     padding: 20px;
     min-width: 400px;
+}
+.header-text{
+    color: white;
+    text-align: center;
+}
+.btn-1{
+    text-decoration: none;
+    background-color:orangered;
+    padding: 1em;
+margin-top: 1em;
+color: white;
+font-size: 1.2rem;
+}
+.btn-1:hover {
+background-color: orange;
+
+
+}
+.btn-1:focus{
+    outline: 2px solid orange;
+    background-color: yellow;
+}
+.navbar a:hover{
+    color: rgb(255, 215, 140);
+
+ 
+}
+.icons{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.2em;
 }
