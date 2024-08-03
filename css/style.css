@@ -126,3 +126,21 @@ background-color: orange;
     justify-content: space-around;
     padding: 1.2em;
 }
+.card img{
+    width: 35vh;
+
+}
+.Products-content {
+text-align: center;
+justify-content: space-around;
+margin-right: 2em;
+}
+
+.card{
+    margin-top: 4em;
+    color: white;
+
+}
+.boton-carro:hover{
+    background-color: #646464;
+}
